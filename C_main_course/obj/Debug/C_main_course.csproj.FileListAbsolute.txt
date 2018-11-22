@@ -1,0 +1,7 @@
+C:\Users\Andriy\source\repos\C_main_course\C_main_course\bin\Debug\C_main_course.exe.config
+C:\Users\Andriy\source\repos\C_main_course\C_main_course\bin\Debug\C_main_course.exe
+C:\Users\Andriy\source\repos\C_main_course\C_main_course\bin\Debug\C_main_course.pdb
+C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course.csprojAssemblyReference.cache
+C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course.csproj.CoreCompileInputs.cache
+C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course.exe
+C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course.pdb
