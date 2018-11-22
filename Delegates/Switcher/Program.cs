@@ -8,18 +8,12 @@ namespace Switcher
 {
     public delegate void MyDelegate(string value);
 
-    
-
     class Program
     {
-        
-
         static void Main(string[] args)
         {
             Launcher Start = new Launcher();
             Console.ReadKey();
-        }
-
-        
+        }       
     }
 }

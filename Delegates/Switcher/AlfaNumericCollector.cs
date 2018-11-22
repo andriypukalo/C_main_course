@@ -9,6 +9,7 @@ namespace Switcher
     class AlfaNumericCollector
     {
         List<string> Content;
+
         public AlfaNumericCollector()
         {
             Content = new List<string>();
@@ -22,6 +23,7 @@ namespace Switcher
         public void Show()
         {
             Console.WriteLine("List with numbers");
+
             foreach (string s in Content)
             {
                 Console.WriteLine(s);

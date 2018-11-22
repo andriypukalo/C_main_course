@@ -9,6 +9,7 @@ namespace Switcher
     class StringCollector
     {
         List<string> Content;
+
         public StringCollector()
         {
             Content = new List<string>();
@@ -18,9 +19,11 @@ namespace Switcher
         {
             Content.Add(value);
         }
+
         public void Show()
         {
             Console.WriteLine("List without numbers");
+
             foreach (string s in Content)
             {
                 Console.WriteLine(s);

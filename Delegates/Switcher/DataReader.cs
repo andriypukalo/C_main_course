@@ -8,10 +8,9 @@ namespace Switcher
 {
     public class DataReader
     {
-        
-
         private string newString;
-        public string NewString// строка що вводиться
+
+        public string NewString// строка, що вводиться
         {
             get
             {
@@ -29,8 +28,6 @@ namespace Switcher
         protected virtual void OnStringChanged()
         {
             if (StringChanged != null) StringChanged(this, EventArgs.Empty);
-        }
-
-        
+        }    
     }
 }
