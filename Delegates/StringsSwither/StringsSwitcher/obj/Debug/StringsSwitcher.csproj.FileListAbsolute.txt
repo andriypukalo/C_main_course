@@ -1,0 +1,6 @@
+D:\LESSONS_old\C_SHARP\SwitcherEvents\Switcher\bin\Debug\Switcher.exe.config
+D:\LESSONS_old\C_SHARP\SwitcherEvents\Switcher\bin\Debug\Switcher.exe
+D:\LESSONS_old\C_SHARP\SwitcherEvents\Switcher\bin\Debug\Switcher.pdb
+D:\LESSONS_old\C_SHARP\SwitcherEvents\Switcher\obj\Debug\StringsSwitcher.csproj.CoreCompileInputs.cache
+D:\LESSONS_old\C_SHARP\SwitcherEvents\Switcher\obj\Debug\Switcher.exe
+D:\LESSONS_old\C_SHARP\SwitcherEvents\Switcher\obj\Debug\Switcher.pdb
