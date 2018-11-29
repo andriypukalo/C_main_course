@@ -1,0 +1,7 @@
+D:\LESSONS_old\C_SHARP\LINQ\LINQ\bin\Debug\LINQ.exe.config
+D:\LESSONS_old\C_SHARP\LINQ\LINQ\bin\Debug\LINQ.exe
+D:\LESSONS_old\C_SHARP\LINQ\LINQ\bin\Debug\LINQ.pdb
+D:\LESSONS_old\C_SHARP\LINQ\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
+D:\LESSONS_old\C_SHARP\LINQ\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+D:\LESSONS_old\C_SHARP\LINQ\LINQ\obj\Debug\LINQ.exe
+D:\LESSONS_old\C_SHARP\LINQ\LINQ\obj\Debug\LINQ.pdb
