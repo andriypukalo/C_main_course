@@ -12,42 +12,48 @@ namespace Switcher
 
         static void Main(string[] args)
         {
-            DataReader DataReader = new DataReader();//класс для вводу даних
+            DataReader MyDataReader = new DataReader();//класс для вводу даних
             Console.WriteLine("Enter 1 for Events.");
             Console.WriteLine("Enter 2 for Delegates.");
             Console.WriteLine("Enter 3 for Actions.");
+            Console.WriteLine("Enter 4 for Func.");
             Console.WriteLine("Choose method:");
             int method = Convert.ToInt16(Console.ReadLine());
 
             if (method == 1) // через події Event
               DataReader.StringChanged += Data_StringChanged; // підписуемся на подію, коли вводиться нова стрічка даних
-            MyDelegate FuctionDelegate; // делегат 
-            Action<string> Action; // Action
 
             while (true)
             {
-                if (!DataReader.AddString()) // ввід стрічки з клавіатури , якщо "y" то метод AddString поверне false і цикл припиняється
+                if (!MyDataReader.AddString()) // ввід стрічки з клавіатури , якщо "y" то метод AddString поверне false і цикл припиняється
                     break;
 
                 if (method == 2) // через делегати
                 {
+                    MyDelegate FuctionDelegate; // делегат 
+
                     // в залежності від того чи є у стрічці цифри - делегат підписується на метод додавання в той чи інший масив - колекцію
-                    if (Analizator.CheckStringForNum(DataReader.NewString))
+                    if (Analizator.CheckStringForNum(MyDataReader.NewString))
                         FuctionDelegate = DataBuffer.Instance.AddToAlphaNumList;
                     else
                         FuctionDelegate = DataBuffer.Instance.AddToAlphaList;
                     // аналізуємо передаємо введене значення, воно аналізується на наявнеість цифр у стрічці і ставиться 
                     // у відповідність делегату - один з методів - записати саме у яку колекцію
-                    FuctionDelegate(DataReader.NewString); //виконуємо
+                    FuctionDelegate(MyDataReader.NewString); //виконуємо
                 }
 
-                if (method == 3)
+                if (method == 3) // Action
                 {
-                    if (Analizator.CheckStringForNum(DataReader.NewString))
-                        Action = DataBuffer.Instance.AddToAlphaNumList;
-                    else
-                        Action = DataBuffer.Instance.AddToAlphaList;
-                    Action(DataReader.NewString);
+                    UseTrueAction(
+                        MyDataReader.NewString, 
+                        DataBuffer.Instance.AddToAlphaNumList, // перша акція -> в клас з номерами
+                        DataBuffer.Instance.AddToAlphaList); // друга акція -> в клас без номерів
+                }
+
+                if (method == 4) // Func
+                {
+                    UseTrueFunc(MyDataReader.NewString, Analizator.CheckStringForNum); // передаємо сюди стрічку і друг им параметром функцію визначення чи 
+                    // чи містить стрічка нумери
                 }
             }
 
@@ -58,18 +64,41 @@ namespace Switcher
             Console.ReadKey();
         }
 
-        // виконується при введені нової стрічки , якщо є підписка через +=
-        public static void Data_StringChanged(object sender, EventArgs e)
-        {
-            string value = ((DataReader)sender).NewString;
 
-            if (Analizator.CheckStringForNum(value))
+
+        public static void UseTrueFunc(string value, Func<string, bool> func)
+        {
+            if (func(value))
             {
-                DataBuffer.Instance.AddToAlphaNumList(value);
+                DataBuffer.Instance.AddToAlphaNumList(value); // перша акція -> в клас з номерами
             }
             else
             {
-                DataBuffer.Instance.AddToAlphaList(value);
+                DataBuffer.Instance.AddToAlphaList(value); // друга акція -> в клас без номерів
+            }
+        }
+
+        public static void UseTrueAction(string value, Action<string> act1, Action<string> act2)
+        {
+            if (Analizator.CheckStringForNum(value))
+            {
+                act1(value);
+            }
+            else
+            {
+                act2(value);
+            }
+        }
+        // виконується при введені нової стрічки , якщо є підписка через +=
+        public static void Data_StringChanged(string newValue)
+        {
+            if (Analizator.CheckStringForNum(newValue))
+            {
+                DataBuffer.Instance.AddToAlphaNumList(newValue);
+            }
+            else
+            {
+                DataBuffer.Instance.AddToAlphaList(newValue);
             }
         }
     }

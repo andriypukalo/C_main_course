@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Switcher
 {
+
+    public delegate void MyStringChangedDelegate(string newValue);
+
     public class DataReader
     {
         // клас для читання значень стрічок з консолі
         // містить подію на зміну значення нової введеноїх стрічки
         // на цю подію можна підписатися і виконувати дії по розподілу
-        private string newString;
+        private static string newString;
         public string NewString// строка шо вводиться
         {
             get
@@ -21,11 +24,10 @@ namespace Switcher
             set
             {
                 newString = value;
-                OnStringChanged();// що відбувається при зміні данних в стрічці
+                OnStringChanged(newString);// що відбувається при зміні данних в стрічці
             }
         }
-
-        public event System.EventHandler StringChanged;// подія на ввід строки
+        public static event MyStringChangedDelegate StringChanged;// подія на ввід строки
 
         public bool AddString()// додавання нової стрічки з консолі і перевірка чи продовжувати вводити дані чи ні 
         {
@@ -41,11 +43,12 @@ namespace Switcher
             }
         }
 
-        protected virtual void OnStringChanged()// на цю подію можна підписатися і виконувати дії по розподілу
+        public static void OnStringChanged(string newValue)// на цю подію можна підписатися і виконувати дії по розподілу
         {
-            if (StringChanged != null) StringChanged(this, EventArgs.Empty);
+            if (StringChanged != null)
+                StringChanged(newValue);
         }
 
-        
+
     }
 }
