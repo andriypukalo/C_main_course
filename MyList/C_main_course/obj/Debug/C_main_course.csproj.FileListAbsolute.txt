@@ -5,3 +5,10 @@ C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course
 C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course.csproj.CoreCompileInputs.cache
 C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course.exe
 C:\Users\Andriy\source\repos\C_main_course\C_main_course\obj\Debug\C_main_course.pdb
+D:\LESSONS_old\C_SHARP\MyList\C_main_course\bin\Debug\C_main_course.exe.config
+D:\LESSONS_old\C_SHARP\MyList\C_main_course\bin\Debug\C_main_course.exe
+D:\LESSONS_old\C_SHARP\MyList\C_main_course\bin\Debug\C_main_course.pdb
+D:\LESSONS_old\C_SHARP\MyList\C_main_course\obj\Debug\C_main_course.csproj.CoreCompileInputs.cache
+D:\LESSONS_old\C_SHARP\MyList\C_main_course\obj\Debug\C_main_course.exe
+D:\LESSONS_old\C_SHARP\MyList\C_main_course\obj\Debug\C_main_course.pdb
+D:\LESSONS_old\C_SHARP\MyList\C_main_course\obj\Debug\C_main_course.csprojResolveAssemblyReference.cache
