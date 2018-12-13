@@ -1,0 +1,27 @@
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.deps.json
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.runtimeconfig.json
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.runtimeconfig.dev.json
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.dll
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.pdb
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.csproj.CoreCompileInputs.cache
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.RazorAssemblyInfo.cache
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.RazorAssemblyInfo.cs
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.AssemblyInfoInputs.cache
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.AssemblyInfo.cs
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.RazorTargetAssemblyInfo.cache
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.dll
+D:\LESSONS_old\C_SHARP\CORE_API\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.pdb
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.deps.json
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.runtimeconfig.json
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.runtimeconfig.dev.json
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.dll
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\bin\Debug\netcoreapp2.1\API_COURSE.pdb
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.csprojAssemblyReference.cache
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.csproj.CoreCompileInputs.cache
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.RazorAssemblyInfo.cache
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.RazorAssemblyInfo.cs
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.AssemblyInfoInputs.cache
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.AssemblyInfo.cs
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.RazorTargetAssemblyInfo.cache
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.dll
+D:\University\С#\SIGMA\7 заняття\API_COURSE\API_COURSE\API_COURSE\obj\Debug\netcoreapp2.1\API_COURSE.pdb
