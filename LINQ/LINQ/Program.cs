@@ -20,16 +20,16 @@ namespace LINQ
             //вхідна стрічка
             string inputNames = "Davis, Clyne, Fonte, Hooiveld, Shaw, Davis, Schneiderlin, Cork, Lallana, Rodriguez, Lambert";
 
-            // маств знаків розділювакчів, щоб знати яким чином розбивати її на підрядки - імена
+            // масив знаків розділювачів, щоб знати яким чином розбивати її на підрядки - імена
             char[] splittersNames = { ' ', ',' };
             // вивід на екран вхідної стрічки
             Console.WriteLine(String.Format("Inpup string: \n{0}", inputNames));
             // множина Імен - персонс - результат  розбиття вхідного рядка , System.StringSplitOptions.RemoveEmptyEntries = щоб ігнорувати пробіли
             string[] Persons = inputNames.Split(splittersNames, System.StringSplitOptions.RemoveEmptyEntries);
-            // вибираємо з масиву стрічоч - імен Персронс у перечислювальні оюєкти з властивостями - номер, імя, номер + імя IndexName
+            // вибираємо з масиву стрічок - імен person у перечислювальні об'єкти з властивостями - номер, імя, номер + імя IndexName
             var person = Persons.Select((p, i) => new { Index = i + 1, Name = p, IndexName = String.Format("{0}.{1}", i + 1, p) });
 
-            // номер + імя записуємо у масив Персонс
+            // номер + імя записуємо у масив person
             foreach (var obj in person)
                 Persons[obj.Index - 1] = obj.IndexName;
             // додаємо розділювач між записами
